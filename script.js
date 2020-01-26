@@ -13,4 +13,7 @@ col1.addEventListener("input",function(){
 col2.addEventListener("input",function(){
     grd.style.background="linear-gradient(to right,"+ col1.value+ "," +col2.value+")"
 });
+col2.addEventListener("input",function(){
+    grd.style.background="linear-gradient(to right,"+ col1.value+ "," +col2.value+")"
+});
 
